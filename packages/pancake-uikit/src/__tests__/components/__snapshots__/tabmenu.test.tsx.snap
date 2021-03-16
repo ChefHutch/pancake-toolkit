@@ -2,15 +2,101 @@
 
 exports[`renders correctly 1`] = `
 <DocumentFragment>
-  <div
-    class="sc-bdfBwQ sc-gsTCUz sc-dlfnbm iwJkGQ ckYhbt gjsBuP"
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  border-bottom: 2px solid #8f80ba;
+  padding: 0 16px;
+}
+
+.c1 > button + button {
+  margin-left: 4px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  width: 50%;
+  min-width: 83px;
+  padding: 8px 0;
+  border-radius: 16px 16px 0 0;
+  color: #FFFFFF;
+  background-color: #8f80ba;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  width: 50%;
+  min-width: 83px;
+  padding: 8px 0;
+  border-radius: 16px 16px 0 0;
+  color: #8f80ba;
+  background-color: #eeeaf4;
+}
+
+.c3 {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+.c5 {
+  color: #8f80ba;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+@media screen and (min-width:576px) {
+  .c2 {
+    width: auto;
+  }
+}
+
+@media screen and (min-width:576px) {
+  .c4 {
+    width: auto;
+  }
+}
+
+<div
+    class="c0 c1"
   >
     <button
-      class="sc-hKgILt flOdUK"
+      class="c2"
       color="card"
     >
       <div
-        class="sc-eCssSg iJPpdt"
+        class="c3"
         color="card"
         font-weight="600"
       >
@@ -18,11 +104,11 @@ exports[`renders correctly 1`] = `
       </div>
     </button>
     <button
-      class="sc-hKgILt giymoc"
+      class="c4"
       color="textSubtle"
     >
       <div
-        class="sc-eCssSg gbqlTw"
+        class="c5"
         color="textSubtle"
         font-weight="600"
       >
