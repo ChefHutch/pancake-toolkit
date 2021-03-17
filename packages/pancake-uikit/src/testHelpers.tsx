@@ -1,6 +1,6 @@
+import "jest-styled-components";
 import React, { ReactNode } from "react";
 import { render, RenderResult } from "@testing-library/react";
-import "jest-styled-components";
 import { ThemeProvider } from "styled-components";
 import { light } from "./theme";
 
